@@ -296,6 +296,7 @@ section .button button:hover {
 
 /* My projects CSS */
 .projects .boxes {
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
 }
