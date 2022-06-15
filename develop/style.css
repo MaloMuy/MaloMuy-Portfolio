@@ -294,100 +294,40 @@ section .button button:hover {
   color: #f44040;
 }
 
-/* My Skills CSS */
-.skills {
-  background: #F0F8FF;
-}
-
-.skills .content {
-  padding: 40px 0;
-}
-
-.skills .skills-details {
+/* My projects CSS */
+.projects .boxes {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
-.skills-details .text {
-  width: 50%;
-}
-
-.skills-details p {
-  color: #310e0e;
-  text-align: justify;
-}
-
-.skills .skills-details .experience {
-  display: flex;
-  align-items: center;
-  margin: 0 10px;
-}
-
-.skills-details .experience .num {
-  color: #310e0e;
-  font-size: 80px;
-}
-
-.skills-details .experience .exp {
-  color: #310e0e;
-  margin-left: 20px;
-  font-size: 18px;
-  font-weight: 500;
-  margin: 0 6px;
-}
-
-.skills-details .boxes {
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.skills-details .box {
-  width: calc(100% / 2 - 20px);
-  margin: 20px 0;
-}
-
-.skills-details .boxes .topic {
-  font-size: 20px;
-  color: #f44040;
-}
-
-.skills-details .boxes .per {
-  font-size: 60px;
-  color: #f44040;
-}
-
-/* My Services CSS */
-.services .boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.services .boxes .box {
+.projects .boxes .box {
   margin: 20px 0;
   width: calc(100% / 3 - 20px);
   text-align: center;
   border-radius: 12px;
   padding: 30px 10px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
   cursor: default;
   transition: all 0.4s ease;
 }
 
-.services .boxes .box p {
+.projects .boxes .box img {
+  margin: 20px 0;
+  width: calc(200% / 2 - 20px);
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.projects .boxes .box p {
   color: #310e0e
 }
 
-
-.services .boxes .box:hover {
+.projects .boxes .box:hover {
   background: #f44040;
   color: #fff;
 }
 
-.services .boxes .box .icon {
+.projects .boxes .box .icon {
   height: 50px;
   width: 50px;
   background: #f44040;
@@ -405,14 +345,14 @@ section .button button:hover {
   color: #f44040;
 }
 
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p {
+.projects .boxes .box:hover .topic,
+.projects .boxes .box:hover p {
   color: #310e0e;
   transition: all 0.4s ease;
 }
 
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p {
+.projects .boxes .box:hover .topic,
+.projects .boxes .box:hover p {
   color: #fff;
 }
 
@@ -495,7 +435,7 @@ footer .text span a:hover {
     margin: 40px 0;
   }
 
-  .services .boxes .box {
+  .projects .boxes .box {
     margin: 20px 0;
     width: calc(100% / 2 - 20px);
   }
@@ -576,7 +516,7 @@ footer .text span a:hover {
     width: 100%;
   }
 
-  .services .boxes .box {
+  .projects .boxes .box {
     margin: 20px 0;
     width: 100%;
   }
